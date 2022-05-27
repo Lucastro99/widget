@@ -72,7 +72,7 @@ export default defineComponent({
         'NewPasswordForm'
       ]
     )
-    const control = ref(0)
+    const control = ref(7)
     const openClose = reactive({ state: false })
     function openCloseWidget () {
       openClose.state = true
